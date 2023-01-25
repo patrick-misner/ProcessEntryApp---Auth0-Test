@@ -5,11 +5,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Chrome",
+      "command": "npm start",
+      "name": "React Client",
       "request": "launch",
-      "type": "chrome",
-      "url": "http://localhost:4040",
-      "webRoot": "${workspaceFolder}/src"
-    }
+      "type": "node-terminal"
+  }
   ]
 }
