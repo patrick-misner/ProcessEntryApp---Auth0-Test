@@ -6,7 +6,7 @@ export const HeroBanner = () => {
   return (
     <div className="hero-banner hero-banner--pink-yellow">
       <div className="hero-banner__logo">
-        <img className="hero-banner__image" src={logo} alt="React logo" />
+        <img className="hero-banner__image pt-2" src={logo} alt="React logo" />
       </div>
       <h1 className="hero-banner__headline">Hello, React World!</h1>
       <p className="hero-banner__description">
